@@ -134,7 +134,7 @@ client.on('guildMemberSpeaking', (member, speaking) => {
           if (bannedWords.some(function(v) {return transcription2.indexOf(v) >= 0})) {
             console.log(member.displayName + " moved.");
             console.log(transcription2);
-            member.voice.setChannel("937948345987645452");
+            member.voice.setChannel("743292171242700864");
           }
           fs.unlink(audioFileName, (err) => {
             if (err) {
